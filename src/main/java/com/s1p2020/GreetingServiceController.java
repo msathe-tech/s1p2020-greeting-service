@@ -9,6 +9,10 @@ public class GreetingServiceController {
 
 	@GetMapping("/greeting")
 	public String greeting() {
+		return "Greetings!";
+	}
+	@GetMapping("/")
+	public String default() {
 		return "Hello World!";
 	}
 }
