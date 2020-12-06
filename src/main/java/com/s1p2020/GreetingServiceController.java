@@ -12,7 +12,7 @@ public class GreetingServiceController {
 		return "Greetings!";
 	}
 	@GetMapping("/")
-	public String default() {
+	public String home() {
 		return "Hello World!";
 	}
 }
