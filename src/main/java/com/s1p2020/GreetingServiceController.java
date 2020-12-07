@@ -13,6 +13,6 @@ public class GreetingServiceController {
 	}
 	@GetMapping("/")
 	public String home() {
-		return "Hello World!";
+		return "Hello Serverless World!";
 	}
 }
