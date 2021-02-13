@@ -13,6 +13,6 @@ public class GreetingServiceController {
 	}
 	@GetMapping("/")
 	public String home() {
-		return "Feb 13, 9.58am Hello World!";
+		return "Feb 13, 10.12am Hello World!";
 	}
 }
