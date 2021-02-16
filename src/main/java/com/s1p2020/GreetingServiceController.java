@@ -14,7 +14,10 @@ public class GreetingServiceController {
 	}
 	@GetMapping("/")
 	public String home() {
-        TimeUnit.SECONDS.sleep(1);
+        try { 
+            TimeUnit.SECONDS.sleep(1);        
+        } catch (Exception e) {}
+
 		return "Feb 15, 6.49pm Hello World!";
 	}
 }
