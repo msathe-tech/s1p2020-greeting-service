@@ -14,10 +14,10 @@ public class GreetingServiceController {
 	}
 	@GetMapping("/")
 	public String home() {
-       try { 
+       /*try { 
             TimeUnit.SECONDS.sleep(1);        
         } catch (Exception e) {}
-       
-		return "Feb 15, 11.28pm Hello World!";
+       */
+		return "Feb 15, 11.54pm Hello World!";
 	}
 }
