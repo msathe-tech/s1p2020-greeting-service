@@ -20,6 +20,6 @@ public class GreetingServiceController {
             TimeUnit.SECONDS.sleep(1);        
         } catch (Exception e) {}
        */
-		return "Feb 16, 12.48pm Hello World!";
+		return "Feb 16, 3.37am Hello World!";
 	}
 }
