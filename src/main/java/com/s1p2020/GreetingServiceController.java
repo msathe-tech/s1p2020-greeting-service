@@ -16,10 +16,10 @@ public class GreetingServiceController {
 	@GetMapping("/")
 	public String home() {
         System.out.println("Invoked /");
-       /*try { 
+        try { 
             TimeUnit.SECONDS.sleep(1);        
         } catch (Exception e) {}
-       */
-		return "Feb 16, 11.54am Hello World!";
+        
+		return "Feb 17 2.16am Hello World!";
 	}
 }
